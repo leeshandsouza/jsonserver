@@ -136,48 +136,6 @@
       "role": "User"
     },
     {
-      "userList": [
-        {
-          "arrPid": [],
-          "id": 1,
-          "name": "Admin34",
-          "email": "admin@legalcliq.com",
-          "password": "admin123",
-          "role": "Admin"
-        },
-        {
-          "id": 2,
-          "name": "Neha",
-          "email": "neha@legalcliq.com",
-          "password": "neha123",
-          "role": "Admin"
-        },
-        {
-          "id": 3,
-          "name": "James",
-          "email": "john@legalcliq.com",
-          "password": "john123",
-          "role": "User"
-        },
-        {
-          "arrPid": [],
-          "id": 4,
-          "name": "Jerry",
-          "email": "jerry@legalcliq.com",
-          "password": "jerry123",
-          "role": "User"
-        },
-        {
-          "arrPid": [],
-          "id": 5,
-          "name": "Leeshan",
-          "email": "leeshands@gmail.com",
-          "password": "password",
-          "role": "User"
-        }
-      ]
-    },
-    {
       "id": "5",
       "name": "Leesha",
       "email": "an",
