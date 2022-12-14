@@ -1,0 +1,91 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "A4",
+      "type": "sedan",
+      "engine": "2.0 L 4-Cylinder",
+      "fuel": "54L",
+      "hybrid": true,
+      "battery": "12V Li-Ion",
+      "imgpath": "audipng1.png"
+    },
+
+    {
+      "id": 2,
+      "name": "RS7",
+      "type": "sports car",
+      "engine": "3.0 L V12",
+      "fuel": "46L",
+      "hybrid": true,
+      "battery": "12V Li-Ion",
+      "imgpath": "audipng2.png"
+    },
+    {
+      "id": 3,
+      "name": "Q3",
+      "type": "Compact SUV",
+      "engine": "2.2 L 4-Cylinder 4x4",
+      "fuel": "50L",
+      "hybrid": true,
+      "battery": "24V Li-Ion",
+      "imgpath": "audipng3.png"
+    },
+    {
+      "id": 4,
+      "name": "R8",
+      "type": "sports car",
+      "engine": "3.0 L V12",
+      "fuel": "46L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng4.png"
+    },
+    {
+      "id": 6,
+      "name": "A8L",
+      "type": "Sedan",
+      "engine": "3.0 L V8",
+      "fuel": "52L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng6.png"
+    },
+    {
+      "id": 7,
+      "name": "C3 Cabriolet",
+      "type": "Sports GT",
+      "engine": "2.2 L V8",
+      "fuel": "40L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng7.png"
+    }
+  ],
+  "desc": [
+    {
+      "id": 1,
+      "desc": "The Audi A4 has 1 Petrol Engine on offer. The Petrol engine is 1998 cc . It is available with Automatic transmission.Depending upon the variant and fuel typethe A4 has a mileage of 9.4 kmpl. The A4 is a 5 seater 4 cylinder car and has length of 4762mm, width of 1847mm and a wheelbase of 2819mm"
+    },
+    {
+        "id": 2,
+        "desc": "The Audi RS7 has 1 Petrol Engine on offer. The Petrol engine is 3996 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the RS7 has a mileage of 8.9 kmpl . The RS7 is a 4 seater 6 cylinder car and has length of 5009mm, width of 1950 and a wheelbase of 2930."
+      },
+      {
+        "id": 3,
+        "desc": "The Audi Q3 has 1 Petrol Engine on offer. The Petrol engine is 1984 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the Q3 has a mileage of . The Q3 is a 5 seater 4 cylinder car."
+      },
+      {
+        "id": 4,
+        "desc": "The Audi R8 has 1 Petrol Engine on offer. The Petrol engine is 5204 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the R8 has a mileage of 5.71 kmpl & Ground clearance of R8 is 110mm. The R8 is a 2 seater 10 cylinder car and has length of 4426mm, width of 1940mm and a wheelbase of 2650mm."
+      },
+      {
+        "id": 6,
+        "desc": "The Audi A8L has 1 Petrol Engine on offer. The Petrol engine is 2995 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the A8L has a mileage of . The A8L is a 5 seater 6 cylinder car and has length of 5320mm, width of 2130mm and a wheelbase of 3128mm."
+      },
+      {
+        "id": 7,
+        "desc": "The Audi A4 has 1 Petrol Engine on offer. The Petrol engine is 1998 cc . It is available with Automatic transmission.Depending upon the variant and fuel typethe A4 has a mileage of . The A4 is a 5 seater 4 cylinder car and has length of 4762mm, width of 1847mm and a wheelbase of 2819mm"
+      }
+  ]
+}
