@@ -1,328 +1,91 @@
 {
-  "products": [
+  "cars": [
     {
-      "id": 101,
-      "pName": "Laptop",
-      "price": "87000",
-      "supplier_id": "997",
-      "img_path": "assets/lenovoideapad.webp"
-    },
-    {
-      "id": 102,
-      "pName": "IPhone 12 128 GB",
-      "price": 70000,
-      "supplier_id": 1002,
-      "img_path": "assets/iphone.jpg"
-    },
-    {
-      "id": 103,
-      "pName": "Boat Earphones",
-      "price": 5000,
-      "supplier_id": 1003,
-      "img_path": "assets/shopping.webp"
-    },
-    {
-      "id": 104,
-      "pName": "Samsung Evo Memory Card",
-      "price": "1200",
-      "supplier_id": 1004,
-      "img_path": "assets/samsungevo.webp"
-    },
-    {
-      "id": 105,
-      "pName": "Tenda AC 500Ghz Router",
-      "price": "3520",
-      "supplier_id": 1005,
-      "img_path": "assets/modem.jpg"
-    },
-    {
-      "id": 106,
-      "pName": "FitBit smart watch!",
-      "price": "13450",
-      "supplier_id": "1005",
-      "img_path": "assets/fitbit.png"
-    }
-  ],
-  "suppliers": [
-    {
-      "id": 1001,
-      "name": "Sangeetha2.0",
-      "loc": "Nagpur20"
-    },
-    {
-      "id": 1002,
-      "name": "Sangeetha2.0",
-      "loc": "Nagpur20"
-    },
-    {
-      "id": 1003,
-      "name": "Pai Internal",
-      "loc": "Hyderabad"
-    },
-    {
-      "id": 1004,
-      "name": "Reliance Digital",
-      "loc": "Mumbai",
-      "logo_path": "assets/image/rd.png"
-    },
-    {
-      "id": 1005,
-      "name": "Happy Digitals",
-      "loc": "Delhi",
-      "logo_path": "assets/image/happy.jpg"
-    },
-    {
-      "id": 1006,
-      "name": "Digi World",
-      "loc": "Nagpur",
-      "logo_path": "assets/image/digi.jpg"
-    },
-    {
-      "id": 1007,
-      "name": "Girias",
-      "loc": "Mangalore",
-      "logo_path": "assets/image/girias.png"
-    },
-    {
-      "id": 996,
-      "name": "Toshiba",
-      "loc": "Taian"
-    },
-    {
-      "id": 997,
-      "name": "Honda",
-      "loc": "Dubai"
-    },
-    {
-      "id": 998,
-      "name": "Mahindra",
-      "loc": "India"
-    },
-    {
-      "id": 1008,
-      "name": "3333",
-      "loc": "322"
-    }
-  ],
-  "users": [
-    {
-      "arrPid": [],
       "id": 1,
-      "name": "Admin34",
-      "email": "admin@legalcliq.com",
-      "password": "admin123",
-      "role": "Admin"
+      "name": "A4",
+      "type": "sedan",
+      "engine": "2.0 L 4-Cylinder",
+      "fuel": "54L",
+      "hybrid": true,
+      "battery": "12V Li-Ion",
+      "imgpath": "audipng1.png"
     },
+
     {
       "id": 2,
-      "name": "Neha",
-      "email": "neha@legalcliq.com",
-      "password": "neha123",
-      "role": "Admin"
+      "name": "RS7",
+      "type": "sports car",
+      "engine": "3.0 L V12",
+      "fuel": "46L",
+      "hybrid": true,
+      "battery": "12V Li-Ion",
+      "imgpath": "audipng2.png"
     },
     {
       "id": 3,
-      "name": "James",
-      "email": "john@legalcliq.com",
-      "password": "john123",
-      "role": "User"
+      "name": "Q3",
+      "type": "Compact SUV",
+      "engine": "2.2 L 4-Cylinder 4x4",
+      "fuel": "50L",
+      "hybrid": true,
+      "battery": "24V Li-Ion",
+      "imgpath": "audipng3.png"
     },
     {
-      "arrPid": [],
       "id": 4,
-      "name": "Jerry",
-      "email": "jerry@legalcliq.com",
-      "password": "jerry123",
-      "role": "User"
+      "name": "R8",
+      "type": "sports car",
+      "engine": "3.0 L V12",
+      "fuel": "46L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng4.png"
     },
     {
-      "id": "5",
-      "name": "Leesha",
-      "email": "an",
-      "role": "User",
-      "password": "123"
-    }
-  ],
-  "carts": [
-    {
-      "amount": 0,
-      "id": 1,
-      "arrPid": [
-        104,
-        104,
-        103
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 2,
-      "arrPid": [
-        101,
-        103
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 3,
-      "arrPid": [
-        101,
-        102,
-        103
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 4,
-      "arrPid": [
-        102
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 5,
-      "arrPid": [
-        105
-      ]
-    },
-    {
-      "amount": 0,
       "id": 6,
-      "arrPid": [
-        101,
-        105
-      ]
+      "name": "A8L",
+      "type": "Sedan",
+      "engine": "3.0 L V8",
+      "fuel": "52L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng6.png"
     },
     {
-      "amount": 0,
-      "id": 8,
-      "arrPid": [
-        103
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 9,
-      "arrPid": []
-    },
-    {
-      "amount": 0,
-      "id": 10,
-      "arrPid": [
-        104
-      ]
-    },
-    {
-      "amount": 0,
-      "id": 11,
-      "arrPid": []
-    },
-    {
-      "amount": 0,
-      "id": 12,
-      "arrPid": []
-    },
-    {
-      "amount": 0,
-      "id": 13,
-      "arrPid": []
+      "id": 7,
+      "name": "C3 Cabriolet",
+      "type": "Sports GT",
+      "engine": "2.2 L V8",
+      "fuel": "40L",
+      "hybrid": false,
+      "battery": "12VLiIon",
+      "imgpath": "audipng7.png"
     }
   ],
-  "CartTemp": [
+  "desc": [
     {
       "id": 1,
-      "uid": 1,
-      "amount": 36200,
-      "productArray": [
-        {
-          "id": 1,
-          "pName": "phone",
-          "price": "1200",
-          "arrSupplier": [
-            {
-              "id": "1",
-              "sName": "Harsha",
-              "sLoc": "Koramangala"
-            },
-            {
-              "id": "2",
-              "sName": "Girias",
-              "sLoc": "Koramangala"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "pName": "tablet",
-          "price": "35000",
-          "arrSupplier": [
-            {
-              "id": "3",
-              "sName": "Reliance",
-              "sLoc": "Koramangala"
-            }
-          ]
-        }
-      ]
+      "desc": "The Audi A4 has 1 Petrol Engine on offer. The Petrol engine is 1998 cc . It is available with Automatic transmission.Depending upon the variant and fuel typethe A4 has a mileage of 9.4 kmpl. The A4 is a 5 seater 4 cylinder car and has length of 4762mm, width of 1847mm and a wheelbase of 2819mm"
     },
     {
-      "productArray": [
-        {
-          "id": "1",
-          "price": "10",
-          "pname": "1",
-          "suppliers": [
-            {
-              "sid": "1",
-              "sname": "1",
-              "sloc": "1"
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "price": "2",
-          "pname": "2",
-          "suppliers": [
-            {
-              "sid": "1",
-              "sname": "1",
-              "sloc": "1"
-            },
-            {
-              "sid": "2",
-              "sname": "2",
-              "sloc": "2"
-            }
-          ]
-        }
-      ],
-      "id": "2",
-      "uid": 2,
-      "amount": 12
-    },
-    {
-      "productArray": [
-        {
-          "id": "2",
-          "price": "2",
-          "pname": "2",
-          "suppliers": [
-            {
-              "sid": "2",
-              "sname": "2",
-              "sloc": "2"
-            },
-            {
-              "sid": "3",
-              "sname": "3",
-              "sloc": "3"
-            }
-          ]
-        }
-      ],
-      "id": "IWrbWQx",
-      "uid": 0,
-      "amount": 2
-    }
+        "id": 2,
+        "desc": "The Audi RS7 has 1 Petrol Engine on offer. The Petrol engine is 3996 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the RS7 has a mileage of 8.9 kmpl . The RS7 is a 4 seater 6 cylinder car and has length of 5009mm, width of 1950 and a wheelbase of 2930."
+      },
+      {
+        "id": 3,
+        "desc": "The Audi Q3 has 1 Petrol Engine on offer. The Petrol engine is 1984 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the Q3 has a mileage of . The Q3 is a 5 seater 4 cylinder car."
+      },
+      {
+        "id": 4,
+        "desc": "The Audi R8 has 1 Petrol Engine on offer. The Petrol engine is 5204 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the R8 has a mileage of 5.71 kmpl & Ground clearance of R8 is 110mm. The R8 is a 2 seater 10 cylinder car and has length of 4426mm, width of 1940mm and a wheelbase of 2650mm."
+      },
+      {
+        "id": 6,
+        "desc": "The Audi A8L has 1 Petrol Engine on offer. The Petrol engine is 2995 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the A8L has a mileage of . The A8L is a 5 seater 6 cylinder car and has length of 5320mm, width of 2130mm and a wheelbase of 3128mm."
+      },
+      {
+        "id": 7,
+        "desc": "The Audi A4 has 1 Petrol Engine on offer. The Petrol engine is 1998 cc . It is available with Automatic transmission.Depending upon the variant and fuel typethe A4 has a mileage of . The A4 is a 5 seater 4 cylinder car and has length of 4762mm, width of 1847mm and a wheelbase of 2819mm"
+      }
   ]
 }
